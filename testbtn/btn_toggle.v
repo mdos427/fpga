@@ -1,7 +1,7 @@
 //module btn_toggle with debounce
 
 module btn_toggle #(
-  parameter DEBOUNCE_CNT = 20 // 270000 cycles ~10ms à 27Mhz ( 20 pour la simu)
+  parameter DEBOUNCE_CNT = 270000  // 270000 cycles ~10ms à 27Mhz ( 20 pour la simu)
 )
   (
     input clk,
