@@ -1,6 +1,6 @@
 module RAM #(
     parameter WIDTH = 16,
-    parameter DEPTH = 32          // RAM32 par défaut
+    parameter DEPTH = 15          
 )(
     input  wire                 clk,
     input  wire                 load,
