@@ -4,7 +4,7 @@ module RAM #(
 )(
     input  wire                 clk,
     input  wire                 load,
-    input  wire [$clog2(DEPTH)-1:0] address,
+    input  wire [DEPTH-1:0] address,
     input  wire [WIDTH-1:0]     in,
     output wire [WIDTH-1:0]     out
 );
